@@ -223,7 +223,7 @@ button, input, textarea:focus {
     border-top: 4px solid rgba(0, 0, 0, 0.08);
     border-right: 4px solid rgba(0, 0, 0, 0.08);
     border-bottom: 4px solid rgba(0, 0, 0, 0.08);
-    border-left: 4px solid var(--thm-color);
+    border-left: 4px solid rgb(14, 14, 215);
     border-radius: 50%;
     -webkit-animation: spinner 700ms infinite linear;
     animation: spinner 700ms infinite linear;
@@ -259,11 +259,15 @@ button, input, textarea:focus {
 .atf-section-padding {
 	padding: 90px 0;
 }
+.atf-section-padding h3{
+	color:black;}
+
 
 /*START SECTION TITLE DESIGN*/
 
 .atf-section-title {
 	margin-bottom: 50px;
+	border-radius: 5px;
 }
 .atf-section-title h5 {
 	color: var(--thm-white);
@@ -273,16 +277,16 @@ button, input, textarea:focus {
 	font-family: var(--thm-font);
 	letter-spacing: 1px;
 	font-size: 14px;
-	background: var(--thm-color);
+	background: rgb(14, 14, 215);
 	display: inline-block;
 	padding: 2px 10px;
 	border-radius: 5px;
 }
 .atf-section-title h2 {
+	color: black;
 	font-weight: 400;
 	font-size: 35px;
 	line-height: 1.3;
-	color: var(--thm-black);
 	text-transform: capitalize;
 	font-family: var(--thm-font2);
 }
@@ -324,6 +328,8 @@ button, input, textarea:focus {
 @media only screen and (max-width:480px) { 
 	.atf-section-title  h2  {font-size:25px;}
 }
+
+
 /*END SECTION TITLE DESIGN*/
 
 /*START SCROLL TO TOP*/
@@ -342,7 +348,7 @@ button, input, textarea:focus {
 	font-size: 25px;
 	width: 50px;
 	height: 50px;
-	background: var(--thm-color);
+	background: rgb(14, 14, 215);
 	line-height: 50px;
 	color: var(--thm-white);
 	border-radius: 50%;
@@ -361,7 +367,7 @@ button, input, textarea:focus {
 
 .atf-themes-btn {
 	color: #fff;
-	background-color: var(--thm-color);
+	background-color: rgb(14, 14, 215);
 	font-size: 15px;
 	font-weight: 600;
 	letter-spacing: 1px;
@@ -412,6 +418,7 @@ button, input, textarea:focus {
     padding: 10px 20px;
     display: block;
     position: relative;
+	
     z-index: 1;
 }
 .atf-themes-btn:hover:before,
@@ -456,9 +463,13 @@ button, input, textarea:focus {
 * ----------------------------------------------------------------------------------------
 */
 .atf-top-header {
-	background-color: var(--thm-colors);
+	background-color:rgb(14, 14, 215);
 	overflow: hidden;
-	padding-bottom: 1.5px;
+	padding-bottom: 3.0px;
+	padding: 10px;
+	border-radius: 5px;
+	
+
 }
 .atf-top-header .atf-top-header-in {
 	height: 40px;
@@ -469,22 +480,22 @@ button, input, textarea:focus {
 	transition: all 0.4s ease;
 }
 .atf-top-header  .atf-top-social {
-	font-size: 16px;
+	font-size: 14px;
 	height: 40px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-end;
 	align-items: center;
 	transition: all 0.4s ease;
-	color: var(--thm-white);
+	color:rgb(14, 14, 215);
 	text-align: center;
 }
 .atf-top-social a i:hover{
 	color:var(--thm-white);
 }
 .atf-top-social a i {
-	margin-left: 15px;
-	color: rgba(255, 255, 255, 0.8);
+	margin-left: 5px;
+	color: green;
 }
 .atf-sticky-active .atf-top-header-in  {
 	height: 0; 
@@ -501,7 +512,7 @@ button, input, textarea:focus {
 }
 .atf-top-header-list li {
 	margin-right: 30px;
-	color: rgba(255, 255, 255, 0.8);
+	color:white;
 	font-size: 14px; 
 }
 .atf-top-header-list li:last-child {
@@ -524,7 +535,7 @@ button, input, textarea:focus {
 	height: 80px; 
 }
 .atf-site-header.atf-style1.atf-sticky-active {
-	background: var(--thm-colors);
+	background: rgb(14, 14, 215);
 	color: var(--thm-white) !important;
 	box-shadow: 0 0 15px rgba(244, 231, 231, 0.48);
 }
@@ -596,7 +607,7 @@ button, input, textarea:focus {
 		position: relative; 
 	}
 	.atf-nav .atf-nav-list li a.active {
-		color: var(--thm-base); 
+		color: rgb(220, 181, 187); 
 	}
 	.atf-nav .atf-nav-list ul {
 		width: 200px;
@@ -627,8 +638,8 @@ button, input, textarea:focus {
 		color:var(--thm-black);
 	}
 	.atf-nav .atf-nav-list ul a:hover {
-		background-color: var(--thm-color);
-		color: var(--thm-white);
+		background-color: rgb(14, 14, 215);
+		color: rgb(14, 14, 215);
 	}
 	.atf-nav .atf-nav-list ul ul {
 		top: 15px;
@@ -685,7 +696,7 @@ button, input, textarea:focus {
 	.atf-nav .atf-nav-list a {
 		display: block;
 		padding: 8px 20px; 
-		color: var(--thm-white);
+		color:rgb(14, 14, 215) ;
 	}
 	.atf-nav .menu-item-has-children {
 		position: relative; }
@@ -819,7 +830,7 @@ button, input, textarea:focus {
 .slider-active .owl-nav .owl-next:hover,
 .slider-active .owl-nav .owl-prev:hover {
     border-color: var(--thm-color);
-    background: var(--thm-color);
+    background: rgb(14, 14, 215);
     color: var(--thm-white);
 }
 .slider-active .atf-single-home h3 {
@@ -952,7 +963,8 @@ button, input, textarea:focus {
 }
 .atf-home2-area .right-col .home-image-box img {
 	display: block;
-	width: 100%;
+	width: 350px;
+	height: 150px;
 	border-radius: 7px;
 }
 .atf-home2-area .right-col .home-image-box img:hover{
@@ -972,6 +984,7 @@ button, input, textarea:focus {
 	}
 	.atf-home2-area .right-col .home-image-box{
 		margin-top:30px;
+		height: 150px;
 	}
 	.atf-width-area{
 		height: 1000px;
@@ -1181,7 +1194,7 @@ canvas.sketch{
 }
 .atf-feature-text h3 {
 	padding: 15px 0 10px 0;
-	color: var(--thm-black);
+	color: rgb(14, 14, 215);
 }
 .atf-feature-content:hover h3 {
 	color: var(--thm-color);
@@ -1216,6 +1229,7 @@ canvas.sketch{
 }
 .atf-about-list h3{
 	margin:7px 0;
+	color:black;
 }
 
 /*
@@ -1233,6 +1247,7 @@ canvas.sketch{
 }
 .atf-best-single-service {
 	position:relative;
+	border:2px solid var rgb(14, 14, 215);
 }
 .atf-best-service-number {
 	position: absolute;
@@ -1245,7 +1260,7 @@ canvas.sketch{
 	left: 50%;
 }
 .atf-best-service-text h3 {
-	color: var(--thm-color);
+	color:black;
 	letter-spacing: 1px;
 }
 .atf-best-service-content:hover .atf-best-service-number {
@@ -1255,6 +1270,7 @@ canvas.sketch{
 }
 .atf-best-service-content{
 	position:relative;
+	
 }
 .atf-best-service-content:hover {
 	box-shadow: initial;
@@ -1267,7 +1283,7 @@ canvas.sketch{
 	bottom: 0;
 	width: 100%;
 	height: 6px;
-	background: var(--thm-color);
+	
 }
 .atf-best-service-content:after {
 	content: "";
@@ -1288,14 +1304,14 @@ canvas.sketch{
 }
 .atf-best-service-content:after {
 	height: 6px;
-	background: var(--thm-base);
+	
 }
 .atf-best-single-service {
-	border: none;
-	border-radius: 0px;
+	border-radius: 15px ;
 	padding: 30px 15px;
-	box-shadow: 0 0 15px rgba(0,0,0,0.1);
-	background-color: var(--thm-white);
+	border-color: 38px solid var rgb(14, 14, 215);
+	box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+	background-color: ghostwhite;
 	z-index: 1;
 }
 .atf-best-service-icon img {
@@ -1303,6 +1319,7 @@ canvas.sketch{
 	height: auto;
 	border: 1px dashed;
 	border-radius: 50%;
+	border-color: rgb(14, 14, 215);
 	padding: 5px;
 	/* background: var(--thm-base); */
 }
@@ -1328,7 +1345,7 @@ canvas.sketch{
 * 07.START PROGRAM  DESIGN
 * ----------------------------------------------------------------------------------------
 */
-#class{background: var(--thm-color);}
+#class{background: rgb(14, 14, 215);}
 #class .atf-section-title h5 {
 	background: var(--thm-white);
 	color: var(--thm-black) !important;
@@ -1409,7 +1426,7 @@ canvas.sketch{
 	animation: waves 3s ease-in-out infinite;
 }
 .atf-program-img .iq-waves .wave-1 {
-	-webkit-animation-delay: 0s;
+	-webkit-animation-drelay: 0s;
 	animation-delay: 0s;
 }
 .atf-program-img .iq-waves .wave-2 {
@@ -1503,7 +1520,7 @@ canvas.sketch{
 	font-size: 18px;
 	font-weight: 400;
 	letter-spacing: 1px;
-	color: var(--thm-color);
+	color: rgb(14, 14, 215);
 	border-radius: 0;
 	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 	position: relative;
@@ -1628,7 +1645,8 @@ canvas.sketch{
 	border-radius: 4px 5px;
 }
 .atf-portfolio-area .atf-single-portfolio .atf-portfolio-img img {
-	width: 100%;
+	width: 350px;
+	height: 230px;
 	border-radius:4px 5px;
 }
 .atf-portfolio-area .atf-single-portfolio .p-zoom {
@@ -1783,13 +1801,14 @@ canvas.sketch{
     margin: 0 15px;
 }
 .atf-testimonial .atf-testimonial-pic{
-    width: 90px;
+    width: 300px;
     height: 90px;
     margin: 0 30px 15px 0;
     float: left;
 }
 .atf-testimonial .atf-testimonial-pic img{
-    width: 100%;
+    width: 300px;
+	height: 150px;
     height: auto;
     border-radius: 50%;
 }
@@ -1835,16 +1854,16 @@ canvas.sketch{
 	margin: 0 8px;
 	border-radius: 5px;
 	background: transparent;
-	border: 1px solid var(--thm-black);
+	border: 1px solid rgb(14, 14, 215);
 	transition: 0.3s all ease-in-out;
 	margin-top: 30px;
 }
 .atf-main-testimonials.owl-theme .owl-dots .owl-dot.active span,
 .atf-main-testimonials.owl-theme .owl-dots .owl-dot:hover span {
-    background: var(--thm-color);
+    background: rgb(14, 14, 215);
 	width: 35px;
 	transition: 0.3s all ease-in-out;
-	border: 1px solid var(--thm-color);
+	border: 1px solid  rgb(14, 14, 215);
 }
 /*
 * ----------------------------------------------------------------------------------------
@@ -2026,9 +2045,10 @@ canvas.sketch{
 	width: 100%;
 }
 .atf-special-content.atf-section-title h4 {
-	background: var(--thm-base);
+	background: ghostwhite;
 	display: inline-block;
 	padding: 10px 15px;
+	color: rgb(14, 14, 215);
 	border-radius: 7px;
 	opacity: 0.9;
 	border: 2px solid var(--thm-white);
@@ -2779,11 +2799,14 @@ END BLOG DETAILS DESIGN
 */
 .atf-contact-info {
 	padding: 35px;
+	color: ghostwhite;
 	margin-right: 25px;
 	box-shadow: 0px 4px 6px 4px rgba(75, 81, 91, 0.1);
 	-webkit-box-shadow: 0px 4px 6px 4px rgba(75, 81, 91, 0.1);
 }
-.atf-contact-info .atf-section-title{margin-bottom:30px;}
+.atf-contact-info .atf-section-title h2{margin-bottom:30px;
+color: black;
+}
 .atf-main-contact{
 	margin:20px 0;
 }
@@ -2803,12 +2826,12 @@ END BLOG DETAILS DESIGN
 	text-align: center;
 	margin: 0px 0 25px;
 	border-radius: 10%;
-	background: var(--thm-color);
+	background: black;
 	float: left;
 	margin-right: 25px;
 }
 .atf-contact-details h4 {
-	color: var(--thm-black);
+	color: black;
 	font-size: 20px;
 	line-height: 16px;
 }
@@ -2889,7 +2912,7 @@ END BLOG DETAILS DESIGN
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: var(--thm-colors);
+	background: rgb(14, 14, 215);
 	border-radius: 50% 50% 0% 0%/100% 100% 0% 0%;
 	transform: scaleX(2.1);
 	z-index: -1;
